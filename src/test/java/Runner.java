@@ -5,5 +5,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/feature/calculator.feature")
 
+
+//test commit on git
 public class Runner {
 }
