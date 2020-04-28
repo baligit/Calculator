@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Test Calculator","Test Plus Operator on Calculator","SUCCESS","2020-04-27T12:13:19.3127798+02:00[Europe/Berlin]","0.0","89.05"
+"Is 1 + 1 = 2?","one plus one equal two on calculator?","SUCCESS","2020-04-26T17:35:22.4325105+02:00[Europe/Berlin]","0.0","14.2"

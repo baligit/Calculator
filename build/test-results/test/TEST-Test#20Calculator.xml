@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Calculator" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-27T10:13:20" hostname="PC0373" time="89.89">
+  <properties/>
+  <testcase name="Test Plus Operator on Calculator" classname="Test Calculator" time="44.683"/>
+  <testcase name="Test Plus Operator on Calculator" classname="Test Calculator" time="45.203"/>
+  <system-out><![CDATA[12:14:04.764 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Test Plus Operator on Calculator
+----------------------------------------------------------------------------
+12:14:48.366 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Test Plus Operator on Calculator
+----------------------------------------------------------------------------
+12:14:48.382 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+12:14:48.382 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@53c8acc3(format = Optional[XML])
+12:14:48.382 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@723f3079(format = Optional[JSON])
+12:14:48.382 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@723f3079
+12:14:48.546 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@35c8bd37(format = Optional[HTML])
+12:14:48.546 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@35c8bd37
+12:14:48.547 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+12:14:48.581 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@723f3079
+12:14:48.583 [Test worker] DEBUG net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+12:14:48.592 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test Calculator:Test Plus Operator on Calculator
+12:14:48.593 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@723f3079: Generating report for test outcome: Test Calculator:Test Plus Operator on Calculator
+12:14:48.614 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test Plus Operator on Calculator to file C:\Users\bali\Desktop\Automated Tests\cucumber\calulator\target\site\serenity\d696eeabc9b6e3f82fc1d11441c026e14c63ff45ae62046695fefce1850f9da3.json (using temp file C:\Users\bali\Desktop\Automated Tests\cucumber\calulator\target\site\serenity\d696eeabc9b6e3f82fc1d11441c026e14c63ff45ae62046695fefce1850f9da3.json4bc6dffb-4737-4260-9bb3-a1dcb10aeeb2)
+12:14:48.839 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test Calculator:Test Plus Operator on Calculator done
+12:14:49.118 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:14:49.118 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 537 ms
+12:14:49.118 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@35c8bd37
+12:14:49.118 [Test worker] DEBUG net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+12:14:49.118 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test Calculator:Test Plus Operator on Calculator
+12:14:49.118 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@35c8bd37: Generating report for test outcome: Test Calculator:Test Plus Operator on Calculator
+12:14:49.118 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Test Plus Operator on Calculator in d696eeabc9b6e3f82fc1d11441c026e14c63ff45ae62046695fefce1850f9da3
+12:14:49.133 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider - Requirements found:[]
+12:14:49.149 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider - Requirements found:[]
+12:14:49.287 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Test Calculator:Test Plus Operator on Calculator in d696eeabc9b6e3f82fc1d11441c026e14c63ff45ae62046695fefce1850f9da3.html in directory C:\Users\bali\Desktop\Automated Tests\cucumber\calulator\target\site\serenity  
+12:14:49.287 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in d696eeabc9b6e3f82fc1d11441c026e14c63ff45ae62046695fefce1850f9da3.html
+12:14:49.971 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report d696eeabc9b6e3f82fc1d11441c026e14c63ff45ae62046695fefce1850f9da3.html in 684 ms
+12:14:49.971 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test Calculator:Test Plus Operator on Calculator done
+12:14:49.971 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:14:49.971 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 853 ms
+]]></system-out>
+  <system-err><![CDATA[Apr. 27, 2020 12:13:30 NACHM. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMATION: Detected dialect: W3C
+Apr. 27, 2020 12:14:13 NACHM. io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMATION: Detected dialect: W3C
+]]></system-err>
+</testsuite>
