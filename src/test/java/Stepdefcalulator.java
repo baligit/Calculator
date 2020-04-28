@@ -26,7 +26,7 @@ public class Stepdefcalulator {
 
     @When("^I click (\\d+)$")
     public void i_click(int arg1) {
-        driver.findElement(By.id("bt_05")).sendKeys(String.valueOf(arg1));
+        driver.findElement(By.id("bt_02")).sendKeys(String.valueOf(arg1));
     }
 
     @When("^I click plus$")
@@ -43,6 +43,5 @@ public class Stepdefcalulator {
         int result = Integer.parseInt(driver.findElement(By.id("txtCalc")).getText());
         assertThat(arg1).isEqualTo(result);
     }
-
 
 }

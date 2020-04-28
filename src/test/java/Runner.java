@@ -1,3 +1,4 @@
+import net.thucydides.core.annotations.Managed;
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -8,4 +9,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 //test commit on git
 public class Runner {
+
 }
